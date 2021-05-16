@@ -1,0 +1,119 @@
+/* Navigation Bar*/
+
+.navbar {
+    flex-direction: column;
+    height: 320px;
+    transition: all 0.8s ease-out;
+}
+
+.nav-list {
+    flex-direction: column;
+}
+
+.rightNav {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 20%;
+}
+
+#search {
+    width: 130px;
+    background: none;
+}
+
+.btn-sm{
+    padding: 3.5px 9px;
+}
+
+.burger {
+    display: block;
+}
+
+
+/* Subsidary class to be added on toggle */
+
+.h-nav-resp {
+    height: 45px;
+}
+
+.v-class-resp {
+    opacity: 0;
+}
+
+/* Background Section*/
+
+.firstsection {
+    height: 66vh;
+}
+
+.box-main {
+    flex-direction: column-reverse;
+    max-width: 100%;
+}
+
+.btn {
+    padding: 3px;
+    font-weight: normal;
+    font-size: 7px;
+}
+
+.btn-sm{
+    padding: 3px 7px;
+}
+/* Main section class */
+
+.section {
+    flex-direction: column-reverse;
+    max-width: 90%;
+    margin-top: 10px;
+}
+
+.paras {
+    padding: 0;
+}
+
+.text-big {
+    font-size: 15px;
+    text-align: center;
+}
+
+.text-small {
+    font-size: 6px;
+    text-align: center;
+
+}
+
+.thumbnail img {
+    width: 105px;
+    margin-top: 3px;
+}
+
+
+/* contact section */
+
+.contact {
+    margin-top: 20px;
+}
+
+.form {
+    max-width: 60%;
+}
+
+.form-input {
+    font-size: 11px;
+    margin-top: 15px;
+}
+
+.btn-dark {
+    padding: 4px 11px;
+}
+
+/* footer Section  */
+
+.footer {
+    font-size: 9px;
+    padding: 6px;
+}
